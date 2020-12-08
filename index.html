@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Calculator</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="css/text">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculator</h1>
+    <form id="calculate">
+      <div class="form-group">
+        <input type="radio" name="calcType" id="calcType" value="add">
+        <label for="add">Add</label>
+        <input type="radio" name="calcType" id="calcType" value="subtract">
+        <label for="subtract">Subtract</label>
+        <input type="radio" name="calcType" id="calcType" value="multiply">
+        <label for="multiply">Multiply</label>
+        <input type="radio" name="calcType" id="calcType" value="divide">
+        <label for="divide">Divide</label>
+      </div>
+      <div class="form-group">
+        <label for="num1">1st Number</label>
+        <input id="num1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="num2">2nd Number</label>
+        <input id="num2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Calculate!</button>
+    </form>
+    <div id="output">
+
+    </div>
+  </div>
+</body>
+</html>
