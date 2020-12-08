@@ -8,6 +8,10 @@
 
 _This application is using vanilla javascript, jQuery, and Bootstrap.  This is a simple review exercise_
 
+## Personal Reference Notes
+_I used the radio button form to choose the calculator function, passing the name of the function to be used through the form.  This was occomplished by making the functions within an object.  That was very satisfying because the form passed the function name directly as the form value, ready to immediately use.  It was a DRY solution I was very pleased with._
+
+
 
 ## Setup/Installation Requirements
 
